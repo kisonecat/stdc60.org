@@ -1,6 +1,10 @@
 ---
-title: Home
+title: 60th Spring Topology and Dynamics Conference
 ---
+
+<div class="hero-logo">
+  <img src="/logo/logo.svg" alt="STDC 60 Logo">
+</div>
 
 The **60th Spring Topology and Dynamics Conference (STDC 60)** will be hosted at
 [The Ohio State University](https://www.osu.edu/) in Columbus, OH.

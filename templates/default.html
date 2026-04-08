@@ -4,35 +4,58 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>$title$ — STDC 60</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=IBM+Plex+Serif:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css">
-  <!-- KaTeX for math rendering -->
-  <link rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/katex@0.16/dist/katex.min.css">
-  <script defer
-    src="https://cdn.jsdelivr.net/npm/katex@0.16/dist/katex.min.js"></script>
-  <script defer
-    src="https://cdn.jsdelivr.net/npm/katex@0.16/dist/contrib/auto-render.min.js"
-    onload="renderMathInElement(document.body)"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body)"></script>
 </head>
 <body>
   <header>
-    <div class="site-title">
-      <a href="/">60th Spring Topology and Dynamics Conference</a>
+    <div class="header-inner">
+      <div class="header-brand">
+        <a href="/" class="logo-link" aria-label="STDC 60 Home">
+          <img src="/logo/logo.svg" alt="" class="site-logo" aria-hidden="true">
+        </a>
+        <div class="header-text">
+          <a href="/" class="site-name">60<sup>th</sup> Spring Topology<br>and Dynamics Conference</a>
+        </div>
+      </div>
+      <nav aria-label="Main navigation">
+        <a href="/">Home</a>
+        <a href="/speakers.html">Speakers</a>
+        <a href="/schedule.html">Schedule</a>
+        <a href="/registration.html">Registration</a>
+        <a href="/local-info.html">Local Info</a>
+        <a href="/hotels.html">Hotels</a>
+      </nav>
     </div>
-    <nav>
-      <a href="/">Home</a>
-      <a href="/speakers.html">Speakers</a>
-      <a href="/schedule.html">Schedule</a>
-      <a href="/registration.html">Registration</a>
-      <a href="/local-info.html">Local Info</a>
-      <a href="/hotels.html">Hotels</a>
-    </nav>
   </header>
   <main>
     $body$
   </main>
   <footer>
-    <p>60th Spring Topology and Dynamics Conference</p>
+    <div class="footer-inner">
+      <div class="footer-info">
+        <p class="footer-conference">60<sup>th</sup> Spring Topology and Dynamics Conference</p>
+        <p class="footer-venue">The Ohio State University &middot; Columbus, OH</p>
+        <p class="footer-contact"><a href="mailto:jim@stdc60.org">jim@stdc60.org</a></p>
+      </div>
+    </div>
   </footer>
+  <script>
+    (function() {
+      var path = window.location.pathname.replace(/\/$/, '') || '/index.html';
+      document.querySelectorAll('nav a').forEach(function(a) {
+        var href = a.getAttribute('href').replace(/\/$/, '') || '/index.html';
+        if (path === href || (href !== '/' && path.startsWith(href.replace('.html', '')))) {
+          a.classList.add('nav-active');
+        }
+      });
+    })();
+  </script>
 </body>
 </html>
