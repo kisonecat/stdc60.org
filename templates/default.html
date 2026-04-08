@@ -48,9 +48,9 @@
   </footer>
   <script>
     (function() {
-      var path = window.location.pathname.replace(/\/$/, '') || '/index.html';
+      var path = window.location.pathname.replace(/\/$$/, '') || '/index.html';
       document.querySelectorAll('nav a').forEach(function(a) {
-        var href = a.getAttribute('href').replace(/\/$/, '') || '/index.html';
+        var href = a.getAttribute('href').replace(/\/$$/, '') || '/index.html';
         if (path === href || (href !== '/' && path.startsWith(href.replace('.html', '')))) {
           a.classList.add('nav-active');
         }
