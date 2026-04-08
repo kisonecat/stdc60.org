@@ -1,0 +1,95 @@
+/* Reset */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+/* Base */
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #222;
+  background: #fff;
+}
+
+/* Layout */
+header, main, footer {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* Header */
+header {
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #005baa;
+  margin-bottom: 2rem;
+}
+
+.site-title a {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #005baa;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+nav a {
+  margin-right: 1.25rem;
+  color: #005baa;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a:hover { text-decoration: underline; }
+
+/* Page content */
+.page { margin-bottom: 3rem; }
+
+.page-title {
+  font-size: 1.8rem;
+  margin-bottom: 1.25rem;
+  color: #005baa;
+}
+
+h2 { font-size: 1.4rem; margin: 1.75rem 0 0.5rem; color: #333; }
+h3 { font-size: 1.15rem; margin: 1.25rem 0 0.35rem; }
+
+p { margin-bottom: 1rem; }
+
+a { color: #005baa; }
+
+ul, ol {
+  margin: 0.5rem 0 1rem 1.75rem;
+}
+
+li { margin-bottom: 0.25rem; }
+
+/* Track listing */
+.tracks { list-style: none; margin-left: 0; }
+.tracks li {
+  border-left: 4px solid #005baa;
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 1rem;
+  background: #f5f8fc;
+}
+.tracks .track-name { font-weight: bold; }
+.tracks .organizers { font-size: 0.9rem; color: #555; }
+
+/* Footer */
+footer {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+  border-top: 1px solid #ccc;
+  font-size: 0.85rem;
+  color: #666;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Math display blocks */
+.math.display {
+  overflow-x: auto;
+  margin: 1rem 0;
+}
