@@ -1,5 +1,44 @@
 <article class="page">
+  <div class="hero-identity">
+    <div class="hero-sixty">
+      <img src="/logo/sixty.svg" class="hero-sixty-img" alt="STDC 60">
+    </div>
+    <div class="hero-abbr">STDC 2027</div>
+    <div class="hero-name">60<sup>th</sup> Spring Topology and Dynamics Conference</div>
+  </div>
   <div class="page-body">
     $body$
   </div>
 </article>
+<script>
+(function () {
+  function textWidth(el) {
+    // createRange measures actual rendered text width, not container width
+    var r = document.createRange();
+    r.selectNodeContents(el);
+    return r.getBoundingClientRect().width;
+  }
+
+  function fitWidth(el) {
+    el.style.fontSize = '';                          // reset to CSS default
+    var target = el.parentElement.offsetWidth;
+    var w = textWidth(el);
+    if (!target || !w) return;
+    var fs = parseFloat(getComputedStyle(el).fontSize);
+    el.style.fontSize = (fs * target / w).toFixed(3) + 'px';
+    // second pass corrects sub-pixel rounding
+    w = textWidth(el);
+    if (w) el.style.fontSize = (parseFloat(el.style.fontSize) * target / w).toFixed(3) + 'px';
+  }
+
+  function run() {
+    document.querySelectorAll('.hero-abbr, .hero-name').forEach(fitWidth);
+  }
+
+  // document.fonts.ready ensures web fonts are measured, not fallback fonts
+  (document.fonts ? document.fonts.ready : Promise.resolve()).then(run);
+
+  var t;
+  window.addEventListener('resize', function () { clearTimeout(t); t = setTimeout(run, 80); });
+})();
+</script>

@@ -16,17 +16,17 @@ main = hakyll $ do
     route   idRoute
     compile copyFileCompiler
 
+  match (fromGlob "content/**.md" .&&. complement (fromGlob "content/index.md")) $ do
+    route   $ setExtension "html" `composeRoutes` gsubRoute "content/" (const "")
+    compile $ mathPandocCompiler
+          >>= loadAndApplyTemplate "templates/page.html"    postCtx
+          >>= loadAndApplyTemplate "templates/default.html" postCtx
+          >>= relativizeUrls
+
   match "content/index.md" $ do
     route   $ setExtension "html" `composeRoutes` gsubRoute "content/" (const "")
     compile $ mathPandocCompiler
           >>= loadAndApplyTemplate "templates/home.html"    postCtx
-          >>= loadAndApplyTemplate "templates/default.html" postCtx
-          >>= relativizeUrls
-
-  match "content/**.md" $ do
-    route   $ setExtension "html" `composeRoutes` gsubRoute "content/" (const "")
-    compile $ mathPandocCompiler
-          >>= loadAndApplyTemplate "templates/page.html"    postCtx
           >>= loadAndApplyTemplate "templates/default.html" postCtx
           >>= relativizeUrls
 

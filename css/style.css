@@ -245,21 +245,70 @@ hr {
   margin: 2.5rem 0;
 }
 
-/* ── HERO LOGO ─────────────────────────────────────────────── */
-.hero-logo {
-  text-align: center;
-  margin: 0 0 2.5rem;
+/* ── HERO IDENTITY ─────────────────────────────────────────── */
+.hero-identity {
+  width: 520px;
+  max-width: 100%;
+  margin: 0 auto 3rem;
 }
 
-.hero-logo img {
-  width: 560px;
-  height: 560px;
-  max-width: 95%;
-  opacity: 0.88;
+/* The sixty.svg + its blurred glow background */
+.hero-sixty {
+  position: relative;
+  line-height: 0;      /* collapse inline whitespace under the img */
+  margin-bottom: 0.6rem;
 }
 
-@media (max-width: 480px) {
-  .hero-logo img { width: 300px; height: 300px; }
+/* Blurred copy rendered behind via pseudo-element.
+   inset: -12% gives the blur room to spread without clipping. */
+.hero-sixty::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: url('/logo/sixty.svg') center / contain no-repeat;
+  filter: drop-shadow(0 0 4px black) drop-shadow(0 0 4px black) drop-shadow(0 0 4px black) blur(10px);
+  opacity: 0.4;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.hero-sixty-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 1;
+}
+
+/* "STDC 2027" — bold; JS scales font-size to fill image width */
+.hero-abbr {
+  display: block;
+  width: 100%;
+  font-family: 'IBM Plex Sans', system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 2.8rem;   /* pre-JS fallback */
+  line-height: 1;
+  color: var(--charcoal);
+  white-space: nowrap; /* prevents wrap so scrollWidth is accurate */
+  letter-spacing: -0.01em;
+}
+
+/* Conference name — regular weight; JS scales font-size to fill image width */
+.hero-name {
+  display: block;
+  width: 100%;
+  font-family: 'IBM Plex Sans', system-ui, sans-serif;
+  font-weight: 400;
+  font-size: 1.12rem;  /* pre-JS fallback */
+  line-height: 1.3;
+  color: var(--charcoal);
+  white-space: nowrap;
+}
+
+.hero-name sup {
+  font-size: 0.55em;
+  vertical-align: super;
+  line-height: 0;
 }
 
 /* ── TRACK CARDS ───────────────────────────────────────────── */
