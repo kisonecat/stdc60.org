@@ -63,4 +63,5 @@ The Mary Ellen Rudin Young Researcher Award is given annually to an outstanding 
 researcher in general topology and its neighboring fields. Established in 2013 by
 Elsevier through the journal *Topology and its Applications*, the award carries a
 $15,000 prize. STDC 60 will present the award at the conference.
+More information is available on [Wikipedia](https://en.wikipedia.org/wiki/Mary_Ellen_Rudin#Mary_Ellen_Rudin_Young_Researcher_Award).
 </div>
