@@ -426,6 +426,43 @@ footer {
   color: #E8E2DB;
 }
 
+/* ── MARY ELLEN RUDIN AWARD ────────────────────────────────── */
+.mer-award {
+  overflow: hidden; /* clearfix for float */
+}
+
+.mer-photo {
+  float: right;
+  margin: 0.25rem 0 1rem 2rem;
+  width: 200px;
+  flex-shrink: 0;
+}
+
+.mer-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--border);
+  border-radius: 2px;
+}
+
+.mer-photo figcaption {
+  font-family: 'IBM Plex Sans', system-ui, sans-serif;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  text-align: center;
+  margin-top: 0.4rem;
+  font-style: italic;
+}
+
+@media (max-width: 480px) {
+  .mer-photo {
+    float: none;
+    margin: 0 auto 1.25rem;
+    width: 160px;
+  }
+}
+
 /* ── MATH ──────────────────────────────────────────────────── */
 .math.display {
   overflow-x: auto;

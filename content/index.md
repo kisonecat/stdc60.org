@@ -46,4 +46,11 @@ participants.
 
 ## Mary Ellen Rudin Young Researcher Award
 
+<div class="mer-award">
+<figure class="mer-photo">
+<img src="/images/mary-ellen-rudin.jpg" alt="Mary Ellen Rudin">
+<figcaption>Mary Ellen Rudin (1924–2013)</figcaption>
+</figure>
+
 STDC 60 will present the Mary Ellen Rudin Young Researcher Award.
+</div>

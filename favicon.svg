@@ -1,10 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect width="32" height="32" rx="5" fill="#0C0D16"/>
-  <text x="16" y="22"
+  <!-- Dark background matching site charcoal -->
+  <rect width="32" height="32" rx="4" fill="#0C0D16"/>
+  <!-- Scarlet top accent stripe (matches header border) -->
+  <rect width="32" height="3" rx="2" fill="#BA0C2F"/>
+  <rect y="2" width="32" height="1" fill="#BA0C2F"/>
+  <!-- "60" in cream, large and centered in remaining space -->
+  <text x="16" y="24"
     font-family="Georgia, 'Times New Roman', serif"
-    font-size="16"
+    font-size="19"
     font-weight="bold"
-    fill="#BA0C2F"
+    fill="#F7F4EF"
     text-anchor="middle"
-    letter-spacing="-0.5">60</text>
+    letter-spacing="-1">60</text>
 </svg>

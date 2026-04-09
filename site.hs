@@ -12,6 +12,10 @@ main = hakyll $ do
     route   idRoute
     compile copyFileCompiler
 
+  match "images/*" $ do
+    route   idRoute
+    compile copyFileCompiler
+
   match "favicon.svg" $ do
     route   idRoute
     compile copyFileCompiler
