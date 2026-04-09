@@ -52,16 +52,7 @@ participants.
 <figcaption>Mary Ellen Rudin (1924–2013)</figcaption>
 </figure>
 
-Mary Ellen Rudin (1924–2013) was an American mathematician and a leading figure in
-set-theoretic topology. A student of R. L. Moore at the University of Texas, she spent
-most of her career at the University of Wisconsin–Madison, where she held the Grace
-Chisholm Young Professorship. She is best remembered for constructing striking
-counterexamples to long-standing conjectures — above all, the first Dowker space (1971),
-which resolved an open problem that had driven topological research for over two decades.
+[Mary Ellen Rudin](https://en.wikipedia.org/wiki/Mary_Ellen_Rudin) (1924–2013) was an American mathematician and a leading figure in set-theoretic topology. She spent most of her career at the University of Wisconsin–Madison, where she held the Grace Chisholm Young Professorship. She is best remembered for constructing striking counterexamples to long-standing conjectures, e.g., the first Dowker space (1971), which resolved an open problem that had driven topological research for over two decades!
 
-The Mary Ellen Rudin Young Researcher Award is given annually to an outstanding young
-researcher in general topology and its neighboring fields. Established in 2013 by
-Elsevier through the journal *Topology and its Applications*, the award carries a
-$15,000 prize. STDC 60 will present the award at the conference.
-More information is available on [Wikipedia](https://en.wikipedia.org/wiki/Mary_Ellen_Rudin#Mary_Ellen_Rudin_Young_Researcher_Award).
+The [Mary Ellen Rudin Young Researcher Award](https://en.wikipedia.org/wiki/Mary_Ellen_Rudin#Mary_Ellen_Rudin_Young_Researcher_Award) is given annually to an outstanding young researcher in general topology and its neighboring fields. Established in 2013 by Elsevier through the journal *Topology and its Applications*, the award carries a $15,000 prize. This award will be presented at STDC 60.
 </div>
