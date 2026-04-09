@@ -5,9 +5,15 @@ title: 60th Spring Topology and Dynamics Conference
 The **60th Spring Topology and Dynamics Conference (STDC 60)** will be hosted at
 [The Ohio State University](https://www.osu.edu/) in Columbus, OH.
 
-This annual conference brings together researchers working across the spectrum of topology
-and dynamical systems, from abstract set-theoretic methods to applied and computational
-topology.
+One of the oldest continually running topology conferences in the world, STDC was founded
+in 1967 and has been bringing together researchers ever since. Each year the conference
+attracts between 100 and 200 active mathematicians from around the world working in
+continuum theory, dynamical systems, geometric group theory, geometric topology, and
+set-theoretic topology.
+
+STDC regularly receives generous support from the National Science Foundation, which
+enables the conference to provide travel funding for graduate students and other junior
+participants.
 
 ## Research Tracks
 
@@ -41,5 +47,3 @@ topology.
 ## Mary Ellen Rudin Young Researcher Award
 
 STDC 60 will present the Mary Ellen Rudin Young Researcher Award.
-
-**Contact:** jim@stdc60.org
