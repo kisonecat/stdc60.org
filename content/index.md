@@ -3,7 +3,8 @@ title: 60th Spring Topology and Dynamics Conference
 ---
 
 The **60th Spring Topology and Dynamics Conference (STDC 60)** will be hosted at
-[The Ohio State University](https://www.osu.edu/) in Columbus, OH.
+[The Ohio State University](https://www.osu.edu/) in Columbus, OH,
+**March 18–20, 2027**.
 
 One of the oldest continually running topology conferences in the world, STDC was founded
 in 1967 and has been bringing together researchers ever since. Each year the conference
