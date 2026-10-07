@@ -2,7 +2,7 @@
 title: Applied Topology and Topological Data Analysis
 ---
 
-**Organizers:** TBA
+**Organizers:** [Sush Majhi](https://www.smajhi.com/), [Atish Mitra](https://www.mtech.edu/mathematical-sciences/faculty/atish-mitra/index.html), [Tom Needham](https://sites.google.com/site/tneedhammath/)
 
 This track covers applications of topology to data analysis and other applied domains,
 including persistent homology, Mapper, topological descriptors, and connections to

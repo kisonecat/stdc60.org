@@ -21,7 +21,7 @@ participants.
 <ul class="tracks">
 <li>
   <div class="track-name">Applied Topology and Topological Data Analysis</div>
-  <div class="organizers">Organizers: TBA</div>
+  <div class="organizers">Organizers: <a href="https://www.smajhi.com/">Sush Majhi</a>, <a href="https://www.mtech.edu/mathematical-sciences/faculty/atish-mitra/index.html">Atish Mitra</a>, <a href="https://sites.google.com/site/tneedhammath/">Tom Needham</a></div>
 </li>
 <li>
   <div class="track-name">Continuum Theory</div>
@@ -33,7 +33,7 @@ participants.
 </li>
 <li>
   <div class="track-name">General and Set-Theoretic Topology</div>
-  <div class="organizers">Organizers: TBA</div>
+  <div class="organizers">Organizers: <a href="https://www.ohio.edu/directory/todd-eisworth">Todd Eisworth</a>, <a href="https://sites.pitt.edu/~tdg25/">Thomas Gilton</a>, <a href="https://www.murraystate.edu/academics/CollegesDepartments/CollegeOfScienceEngineeringandTechnology/CollegeOfSciencePrograms/mathStats/faculty.aspx">Ted Porter</a></div>
 </li>
 <li>
   <div class="track-name">Geometric Group Theory</div>

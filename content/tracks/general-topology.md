@@ -2,7 +2,7 @@
 title: General and Set-Theoretic Topology
 ---
 
-**Organizers:** TBA
+**Organizers:** [Todd Eisworth](https://www.ohio.edu/directory/todd-eisworth), [Thomas Gilton](https://sites.pitt.edu/~tdg25/), [Ted Porter](https://www.murraystate.edu/academics/CollegesDepartments/CollegeOfScienceEngineeringandTechnology/CollegeOfSciencePrograms/mathStats/faculty.aspx)
 
 This track covers set-theoretic and combinatorial techniques in general topology.
 
