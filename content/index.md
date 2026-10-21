@@ -25,7 +25,7 @@ participants.
 </li>
 <li>
   <div class="track-name">Continuum Theory</div>
-  <div class="organizers">Organizers: TBA</div>
+  <div class="organizers">Organizers: <a href="https://www.rhodes.edu/bio/chris-mouron">Chris Mouron</a>, <a href="https://www.fciencias.unam.mx/vida-en-ciencias/distinciones/patricia-pellicer">Patricia Pellicer Covarrubias</a></div>
 </li>
 <li>
   <div class="track-name">Dynamical Systems</div>
@@ -37,7 +37,7 @@ participants.
 </li>
 <li>
   <div class="track-name">Geometric Group Theory</div>
-  <div class="organizers">Organizers: TBA</div>
+  <div class="organizers">Organizers: <a href="https://sites.google.com/view/yuchanchang/">Yu-Chan Chang</a>, <a href="https://ameliapompilio.github.io/">Amelia Pompilio</a>, <a href="https://shapirorh.wixsite.com/rshapiromath">Roberta Shapiro</a>, <a href="https://sites.google.com/view/maya-verma/home">Maya Verma</a></div>
 </li>
 <li>
   <div class="track-name">Geometric Topology</div>

@@ -2,7 +2,7 @@
 title: Continuum Theory
 ---
 
-**Organizers:** TBA
+**Organizers:** [Chris Mouron](https://www.rhodes.edu/bio/chris-mouron), [Patricia Pellicer Covarrubias](https://www.fciencias.unam.mx/vida-en-ciencias/distinciones/patricia-pellicer)
 
 Continuum theory studies compact connected metric spaces (continua) and their mappings.
 

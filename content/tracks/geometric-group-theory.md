@@ -2,7 +2,7 @@
 title: Geometric Group Theory
 ---
 
-**Organizers:** TBA
+**Organizers:** [Yu-Chan Chang](https://sites.google.com/view/yuchanchang/), [Amelia Pompilio](https://ameliapompilio.github.io/), [Roberta Shapiro](https://shapirorh.wixsite.com/rshapiromath), [Maya Verma](https://sites.google.com/view/maya-verma/home)
 
 Geometric group theory studies groups through their actions on metric and topological spaces.
 
