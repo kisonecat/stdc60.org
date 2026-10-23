@@ -2,7 +2,7 @@
 title: Geometric Topology
 ---
 
-**Organizers:** TBA
+**Organizers:** [Jack Calcut](https://www2.oberlin.edu/faculty/jcalcut/), [Louisa Liles](https://sites.google.com/view/louisalilesdoesmath/home)
 
 Geometric topology studies manifolds, knots, and related structures using both
 algebraic and geometric methods.

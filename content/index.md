@@ -41,7 +41,7 @@ participants.
 </li>
 <li>
   <div class="track-name">Geometric Topology</div>
-  <div class="organizers">Organizers: TBA</div>
+  <div class="organizers">Organizers: <a href="https://www2.oberlin.edu/faculty/jcalcut/">Jack Calcut</a>, <a href="https://sites.google.com/view/louisalilesdoesmath/home">Louisa Liles</a></div>
 </li>
 </ul>
 
