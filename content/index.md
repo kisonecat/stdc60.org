@@ -29,7 +29,7 @@ participants.
 </li>
 <li>
   <div class="track-name">Dynamical Systems</div>
-  <div class="organizers">Organizers: TBA</div>
+  <div class="organizers">Organizers: <a href="https://tamara.ccny.cuny.edu/">Tamara Kucherenko</a>, <a href="https://sites.google.com/umd.edu/loydka">Kaitlyn Loyd</a>, <a href="https://www.unca.edu/faculty/kitty-yang/">Kitty Yang</a></div>
 </li>
 <li>
   <div class="track-name">General and Set-Theoretic Topology</div>

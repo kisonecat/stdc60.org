@@ -2,7 +2,7 @@
 title: Dynamical Systems
 ---
 
-**Organizers:** TBA
+**Organizers:** [Tamara Kucherenko](https://tamara.ccny.cuny.edu/), [Kaitlyn Loyd](https://sites.google.com/umd.edu/loydka), [Kitty Yang](https://www.unca.edu/faculty/kitty-yang/)
 
 This track covers topological and combinatorial aspects of dynamical systems,
 including iteration of maps on continua, complex dynamics, and symbolic dynamics.
